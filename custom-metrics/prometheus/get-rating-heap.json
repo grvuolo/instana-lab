@@ -1,0 +1,12 @@
+{
+    "metrics":
+[
+    "metrics.gauges.nodejs_heap_size_used_bytes"
+],
+"plugin": "prometheus",
+"query": "entity.prometheus.gauge",
+"rollup": 60,
+"snapshotIds": [
+    "759HHggWdDEg8jHQJbaIDawabJo"
+]
+}

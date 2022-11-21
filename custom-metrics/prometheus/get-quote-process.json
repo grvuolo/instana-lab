@@ -1,0 +1,14 @@
+{
+    "metrics":
+[
+    "metrics.counters.process_cpu_seconds_total",
+    "metrics.counters.process_cpu_system_seconds_total",
+    "metrics.counters.process_cpu_user_seconds_total"
+],
+"plugin": "prometheus",
+"query": "entity.prometheus.gauge",
+"rollup": 60,
+"snapshotIds": [
+    "mywvXtaFTesETDLY8wLFek9YCOo"
+]
+}
