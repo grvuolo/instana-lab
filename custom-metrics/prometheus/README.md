@@ -270,19 +270,19 @@ Getting the actual metrics
 ### Get Rating Heap Size
 
 ```
-curl -X POST -H "Content-Type: application/json" -d @/Users/grvuolo/Lab/Instana/custom_metrics_prometheus/get-rating-heap.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > rating-heap.json
+curl -X POST -H "Content-Type: application/json" -d @/<path-to>/get-rating-heap.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > rating-heap.json
 ```
 
 ### Get Web Heap Size
 
 ```
-curl -X POST -H "Content-Type: application/json" -d @/Users/grvuolo/Lab/Instana/custom_metrics_prometheus/get-web-heap.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > web-heap.json
+curl -X POST -H "Content-Type: application/json" -d @/<path-to>/get-web-heap.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > web-heap.json
 ```
 
 ### Get Quote Process Metrics
 
 ```
-curl -X POST -H "Content-Type: application/json" -d @/Users/grvuolo/Lab/Instana/custom_metrics_prometheus/get-quote-process.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > quote-process.json
+curl -X POST -H "Content-Type: application/json" -d @/<path-to>/get-quote-process.json https://<instana-url>/api/infrastructure-monitoring/metrics --header 'Authorization: apiToken <instana-api-token>' -k |  python -mjson.tool > quote-process.json
 ```
 
 
